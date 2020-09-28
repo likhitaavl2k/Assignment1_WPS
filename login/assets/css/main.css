@@ -1,0 +1,70 @@
+body, html {
+    background-color:#333;
+    height: 100%;
+    margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    font-family:fantasy;
+    background-attachment: fixed;
+}
+
+strong{
+  color: white;
+  font-size: 35px;
+  font-family:cursive;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: cursive;
+}
+
+li {
+    float: right;
+    border-right:3px solid #bbb;
+    font-family: cursive;
+}
+
+#book{
+  background-color: black;
+  border: none;
+  font-family: cursive;
+  font-size: 20px;
+  border-radius: 20px;
+  top: 50%;
+}
+#logout{
+  background-color: black;
+  border: none;
+  font-family: cursive;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+/*button {
+  border-radius:12px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+/*    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}*/
+
+.container {
+    padding-top: 400px;
+}

@@ -1,0 +1,92 @@
+body, html {
+    
+  height: 100%;
+  margin: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  font-family:fantasy;
+  background-attachment: fixed;
+  background-image: url("stethoscope.jpg");
+}
+
+h1{
+	text-align:center;
+	color:black;
+	font-size:60px;
+  top:30%;
+  font-family: cursive;
+}
+
+h2{
+    text-align: right;
+    color:black;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#consult{
+  font-size:40px;
+  font-family: cursive;
+  color: black;
+}
+
+#login{
+  position: absolute;
+  top: 56%;
+  left:5%;
+  font-family: cursive;
+  background-color: black;
+  padding: 12px 28px;
+  font-size: 20px;
+}
+
+#signup{
+  position: absolute;
+  top: 70%;
+  left:5%;
+  font-family: cursive;
+  background-color: black;
+  padding: 12px 28px;
+  font-size: 20px;
+}
+
+a{
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+strong{
+	color: white;
+	font-size: 35px;
+	font-family:cursive;
+}
+label{
+	color:white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: cursive;
+}
+
+li {
+    float: right;
+    border-right:3px solid #bbb;
+    font-family: cursive;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 35px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+	opacity: 0.6;
+}
+

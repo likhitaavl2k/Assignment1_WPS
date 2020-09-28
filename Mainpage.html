@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainpage/mainpage.css">
+</head>
+<body >
+    
+        <div class="header">
+            <ul>
+                 <strong> Doctor's Apppointment Application</strong>  
+            </ul>
+        </div>
+        <div class="centre">
+            <h2 style="text-align:left;"> Welcome!!</h2><br>
+            <p class="col-lg-3" id="consult" >Consult Now </p>
+            <br>
+            <button type="submit" id="login" class="btn btn-primary">LOGIN</button>
+            <button type="submit" id="signup" class="btn btn-primary" >SIGNUP</button>
+            <script type="text/javascript">
+    			document.getElementById("signup").onclick = function () {
+        		location.href = "signup.html";
+    			};
+
+    			document.getElementById("login").onclick = function () {
+        		location.href = "login.html";
+    			};
+			</script>
+        </div>
+        
+        <div class="footer">
+            <ul style="position: absolute;top:90%;background-color:black;">
+                <li> <a href="admin/admin.html">Admin Login </a> </li>
+            </ul>
+        </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
